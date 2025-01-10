@@ -2,7 +2,7 @@
 document.getElementById("generateBtn").onclick = handleClick;
 
 function handleClick(){
-    const values getInputValue(); 
+    const values = getInputValue(); 
 }
 
 function getInputValue(){
