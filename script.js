@@ -15,20 +15,7 @@ function getRandomCharacter(str) {
     return str[randomIndex];
 }
 
-function randompassword(){
-    for (let index = 0; index < inputamount; index++) {
-        
-
-        console.log(specialCasenum)
-        let lowerCaseChar = getRandomCharacter(lowerCase)
-        let upperCaseChar = getRandomCharacter(upperCase)
-        let numberChar = getRandomCharacter(numbers)
-        let secCaseChar = getRandomCharacter(specChars)
- 
-    }
-}
-randompassword()
-rerender()
-function rerender(){
+function getInputValue(){
+    const inputElements = document.querySelectorAll("input")
     
 }
